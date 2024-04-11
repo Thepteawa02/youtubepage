@@ -1,33 +1,361 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.moreoptions {
+    background-image: url(/images/moreoptions.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    width: 40px;
+    height: 25px;
+    border: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.home {
+    background-image: url(/images/home.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: none;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.shorts {
+    background-image: url(/images/shorts.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: none;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.subscribe {
+    background-image: url(/images/subscribe.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.history {
+    background-image: url(/images/history.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.watchlater {
+    background-image: url(/images/watchlater.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.like {
+    background-image: url(/images/like.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.trending2 {
+    background-image: url(/images/trending2.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.music {
+    background-image: url(/images/music.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.gaming {
+    background-image: url(/images/gaming.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.news {
+    background-image: url(/images/news.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.sport {
+    background-image: url(/images/sport.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.youtubepremium {
+    background-image: url(/images/youtubepremium.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.youtubemusic {
+    background-image: url(/images/youtubemusic.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.youtubekids {
+    background-image: url(/images/youtubekids.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.setting {
+    background-image: url(/images/setting.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.report {
+    background-image: url(/images/report.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.help {
+    background-image: url(/images/help.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.comment {
+    background-image: url(/images/comment.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.youtube {
+    background-image: url(/images/youtube.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position-x: left;
+    background-position-y: center;
+    background-color: transparent;
+    width: 140px;
+    height: 40px;
+    border: none;
+}
+
+.searchinput {
+    background-color: transparent;
+    width: 450px;
+    height: 40px;
+    border-color: #434343;
+    border-radius: 20px 0px 0px 20px;
+    border-style: solid;
+    color: #b4b4b4;
+    padding-left: 2%;
+}
+
+.search {
+    background-image: url(/images/search.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: #2b2b2b;
+    width: 65px;
+    height: 46px;
+    border: none;
+    border-color: #434343;
+    border-radius: 0px 20px 20px 0px;
+    border-style:solid;
+    border-left: 0;
+}
+
+.mic {
+    background-image: url(/images/mic.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: #2b2b2b;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.create {
+    background-image: url(/images/createvideo.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    width: 45px;
+    height: 40px;
+    border: none;
+}
+
+.notification {
+    background-image: url(/images/notification.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    width: 45px;
+    height: 40px;
+    border: none;
+}
+
+.profile {
+    background-image: url(/images/profile.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    width: 45px;
+    height: 40px;
+    border: none;
+}
+
+.rightarrow {
+    background-image: url(/images/rightarrow.png);
+    background-repeat: no-repeat;
+    background-size: 9px;
+    background-position-x: right;
+    background-position-y: center;
+    background-color: transparent;
+    width: 55px;
+    height: 40px;
+    border: none;
+    color: white;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.title {
+    background-color: transparent;
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: white;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.trending1 {
+    background-image: url(/images/trending1.png);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position-x: left;
+    background-position-y: center;
+    background-color: transparent;
+    width: 700px;
+    height: 100px;
+    border: none;
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    padding-left: 13%;
+}
+
+.selected {
+    border-bottom: 2px solid white;
 }
